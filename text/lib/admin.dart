@@ -100,7 +100,7 @@ class _QueryPageState extends State<QueryPage > {
                   partsInputController.text.isNotEmpty &&
                   costInputController.text.isNotEmpty)
               {
-                Firestore.instance.collection("test")
+                Firestore.instance.collection("beta")
                     .add({
                   "Name of Organisation": nameInputController.text,
                   "Description of the issue": problemInputController.text,
